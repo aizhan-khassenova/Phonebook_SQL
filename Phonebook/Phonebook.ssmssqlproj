@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Phonebook">
+  <Items>
+    <LogicalFolder Name="Соединения" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="PC1265\SQLEXPRESS:sa">
+          <Created>2023-09-06T12:17:28.1807135+06:00</Created>
+          <Type>SQL</Type>
+          <Server>PC1265\SQLEXPRESS</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Среда Microsoft SQL Server Management Studio - запрос</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="PC1265\SQLEXPRESS:TestLogin">
+          <Created>2023-11-21T09:22:47.7471191+06:00</Created>
+          <Type>SQL</Type>
+          <Server>PC1265\SQLEXPRESS</Server>
+          <UserName>TestLogin</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Среда Microsoft SQL Server Management Studio - запрос</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Запросы" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Create DB and tables.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PC1265\SQLEXPRESS:False:TestLogin</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PC1265\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName>TestLogin</AssociatedConnUserName>
+          <FullPath>Create DB and tables.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create functions.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PC1265\SQLEXPRESS:False:TestLogin</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PC1265\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName>TestLogin</AssociatedConnUserName>
+          <FullPath>Create functions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create procedures Apartment.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PC1265\SQLEXPRESS:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PC1265\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Create procedures Apartment.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create procedures City.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PC1265\SQLEXPRESS:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PC1265\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Create procedures City.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create procedures House.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PC1265\SQLEXPRESS:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PC1265\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Create procedures House.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create procedures Phone.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PC1265\SQLEXPRESS:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PC1265\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Create procedures Phone.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create procedures Street.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PC1265\SQLEXPRESS:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PC1265\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Create procedures Street.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create table LoginData.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PC1265\SQLEXPRESS:False:TestLogin</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PC1265\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName>TestLogin</AssociatedConnUserName>
+          <FullPath>Create table LoginData.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert tables.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PC1265\SQLEXPRESS:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PC1265\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Insert tables.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Разное" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
